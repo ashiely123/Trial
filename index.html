@@ -96,37 +96,5 @@
     </div>
 
 
-    <script>
-
-        const loginForm = document.querySelector(".login-form");
-        const signupForm = document.querySelector(".signup-form");
-
-        const showSignup = document.getElementById("showSignup");
-        const showLogin = document.getElementById("showLogin");
-
-
-        // Show Sign Up
-        showSignup.addEventListener("click", function(event) {
-
-            event.preventDefault();
-
-            loginForm.classList.add("hidden");
-            signupForm.classList.add("active");
-
-        });
-
-
-        // Show Login
-        showLogin.addEventListener("click", function(event) {
-
-            event.preventDefault();
-
-            signupForm.classList.remove("active");
-            loginForm.classList.remove("hidden");
-
-        });
-
-    </script>
-
 </body>
 </html>
